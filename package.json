@@ -1,0 +1,21 @@
+{
+  "name": "mixing-component-patterns",
+  "version": "1.0.0",
+  "description":
+    "This is an example of how you can combine multiple patterns in a single component to make it expose a super flexible API.\n\nI made it for readers of my newsletter: http://kcd.im/news",
+  "keywords": ["examples", "kcd-edu"],
+  "main": "src/index.js",
+  "dependencies": {
+    "hoist-non-react-statics": "2.5.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
